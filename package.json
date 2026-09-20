@@ -1,6 +1,7 @@
 {
   "name": "it313_sambajon_jazir_javascriptes6essentials",
   "version": "1.0.0",
+  "type": "module",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,6 +9,5 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "type": "commonjs"
+  "license": "ISC"
 }

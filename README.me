@@ -1,0 +1,23 @@
+# IT313 Modern JavaScript (ES6+) Essentials
+
+## Problem Overview
+The IT313 registrar provided raw enrollee records with individual exam grades (prelim, midterm, final). The goal is to build a Node.js utility that processes this raw data, calculates averages, evaluates eligibility status based on a passing mark of 75, and prints a formatted report displaying individual statuses, overall class average, and pass/fail counts.
+
+## ES6+ Features Applied
+- **`let` / `const`**: Block-scoped variable declarations.
+- **Arrow Functions**: Concise expressions for utility functions.
+- **ES Modules (`import`/`export`)**: Isolating math logic (`gradeUtils.js`) from execution logic (`index.js`).
+- **Promises & `async`/`await`**: Simulating async API data fetching with `try`/`catch` handling.
+- **Destructuring**: Direct extraction of object properties (`name`, `prelim`, `midterm`, `final`).
+- **Array Methods**:
+  - `.map()`: Transforms raw enrollees into calculated object models.
+  - `.filter()`: Separates passing students from probation students.
+  - `.reduce()`: Aggregates total grade scores to compute class average.
+- **Template Literals**: Multiline string formatting for report rendering.
+
+## How to Run
+
+1. Open your terminal in the project directory.
+2. Execute the main script:
+   ```bash
+   node index.js
